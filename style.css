@@ -1,0 +1,51 @@
+  /* geral */
+
+
+  body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  
+  /* navbar */
+  #navbar {
+    background-color: #ffffff;
+  }
+
+  #navbar h2, #navbar ul, #navbar-list li,#navbar nav {
+    display: inline-block;
+  }
+  
+  #navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+  }
+  
+  #navbar nav {
+    float: right;
+  }
+  
+  #navbar ul {
+    margin-top: 22px;
+  }
+  
+  #navbar li {
+    margin: 0 10px;
+  }
+  
+  #navbar-list li a {
+    text-decoration: none;
+    color: rgb(48, 39, 39);
+  }
+  
+  #navbar-list li a:hover {
+    color: orangered;
+    transition: 0.4s;
+   
+
+  }
