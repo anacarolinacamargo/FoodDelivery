@@ -1,31 +1,53 @@
-  /* geral */
-
-
-  body, p, h1, h2, input, textarea {
-    margin: 0;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  
-  /* navbar */
+/* navbar */
   #navbar {
     background-color: #ffffff;
+  }
+
+#navbar-list {
+position: static;
+left: 11.49%;
+right: 11.49%;
+top: 20.83%;
+bottom: 20.83%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42; 
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+#navbar-list #home {
+  position: static;
+  left: 14.08%;
+  right: 14.08%;
+  top: 20.83%;
+  bottom: 20.83%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FA4A0C;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
   }
 
   #navbar h2, #navbar ul, #navbar-list li,#navbar nav {
     display: inline-block;
   }
   
-  #navbar h2 {
-    margin: 0;
-    line-height: 60px;
-    margin-left: 55px;
-  }
-  
+ 
   #navbar nav {
     float: right;
   }
@@ -40,12 +62,40 @@
   
   #navbar-list li a {
     text-decoration: none;
-    color: rgb(48, 39, 39);
+    color: #252B42;
   }
+
   
-  #navbar-list li a:hover {
-    color: orangered;
-    transition: 0.4s;
-   
+
+  #navbar img {
+  position: absolute;
+  left: 8.13%;
+  right: 8.13%;
+  top: 0%;
+  bottom: 0%;
 
   }
+
+.main-banner1 {
+  position: relative;
+  text-align: center;
+}
+
+#banner-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+/* font-size: 58px;
+line-height: 80px; */
+/* or 138% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+}
