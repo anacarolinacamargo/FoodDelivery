@@ -9,16 +9,16 @@ function fetchData() {
     })
     .then(data => {
         
-        const html = data.items.map(item => {
-            
+        const html = data.items.map((item, index) => {
+        
+ 
             return `<div id="main-banner1">
+            <div id="cards-text">
             <h4>${item.subtitle}</h4>
             <h3>${item.title}</h3>
             <h2>${item.description} </h2>
+            </div>
             <img id="test" src="${item.image}""/>
-            
-             
- 
             </div>`
         }).join('')
         

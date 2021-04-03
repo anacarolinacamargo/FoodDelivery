@@ -1,34 +1,46 @@
 /* navbar */
-  #navbar {
+  * {
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+  }
+
+#navbar {
     background-color: #ffffff;
+    align-content: flex-end;
+    padding: 0 15px;
+    height: 60px;
+    
+  }
+
+  #navbar img {
+    margin: 0 auto;
+    padding: 8px 90px;
+    height: 80px;
   }
 
 #navbar-list {
 position: static;
-left: 11.49%;
-right: 11.49%;
-top: 20.83%;
-bottom: 20.83%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 28px;
-text-align: center;
 letter-spacing: 0.2px;
 color: #252B42; 
-flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 10px;
+width: 100%;
+justify-content: center;
+padding: 40px;
+word-spacing: 40px;
 }
 
 #navbar-list #home {
   position: static;
-  left: 14.08%;
-  right: 14.08%;
-  top: 20.83%;
-  bottom: 20.83%;
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -41,6 +53,7 @@ margin: 0px 10px;
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
+  
   }
 
   #navbar h2, #navbar ul, #navbar-list li,#navbar nav {
@@ -52,9 +65,7 @@ margin: 0px 10px;
     float: right;
   }
   
-  #navbar ul {
-    margin-top: 22px;
-  }
+
   
   #navbar li {
     margin: 0 10px;
@@ -65,20 +76,16 @@ margin: 0px 10px;
     color: #252B42;
   }
 
-  
-
-  #navbar img {
-  position: absolute;
-  left: 8.13%;
-  right: 8.13%;
-  top: 0%;
-  bottom: 0%;
-
-  }
-
-.main-banner1 {
+#main-banner1 img {
   position: relative;
   text-align: center;
+}
+
+#main-banner2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
 }
 
 #banner-info {
@@ -86,16 +93,283 @@ margin: 0px 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+}
+
+#banner-info h3 {
+font-family: Montserrat;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #F7F7F7;
+padding-top: 10px;
+padding-left: 50px;
+margin-bottom: 2rem;
+
+
+}
+
+#banner-info ul {
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-/* font-size: 58px;
-line-height: 80px; */
-/* or 138% */
-
+font-size: 45px;
 text-align: center;
-letter-spacing: 0.2px;
 
 color: #FFFFFF;
 
+
+
 }
+
+#banner-info p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+#playstore {
+  width: 150px;
+  padding: 16px 0;
+  text-align: center;
+  font-family: Montserrat;
+  margin: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  background: #FA4A0C;
+  color: #ffffff;
+  position: relative;
+  left: 50px;
+  
+}
+
+#appstore {
+  width: 150px;
+  padding: 16px 0;
+  text-align: center;
+  font-family: Montserrat;
+  margin: 10px 0px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 0.5px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  position: relative;
+  left: 50px;
+}
+
+#cards #img1 {
+  position: absolute;
+  
+  left: 20%;
+  margin-top: -350px;
+  
+}
+
+#cards #img2 {
+  position: relative;
+  left: 47%;
+  margin-top: -100px;
+}
+
+hr {
+  width: 50%;
+  border: 0.5px solid #E4E4E4;
+  align-content: center;
+  margin: auto;
+  margin-top: 100px;
+  height: 0.5px;
+  background: #E4E4E4 ;
+}
+
+#introduction h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  line-height: 36px;
+  font-size: 30px;
+  color: #000000;
+  padding-top: 40px;
+}
+
+#cards-text {
+  flex: 1;
+  justify-content: center;
+  height: 30px;
+  width: 380px;
+}
+
+#api-content h3 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  position: relative;
+  margin: 0 10px;
+  flex-direction: row;
+  left: 700px;
+  bottom: -320px;
+}
+
+
+#api-content h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  color:#FA4A0C;
+  font-weight: bold;
+  position: relative;
+  flex-direction: row;
+  left: 708px;
+  bottom: -300px;
+  
+}
+
+#api-content h2 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #737373;
+margin: 0 10px;
+position: relative;
+flex-direction: row;
+left: 700px;
+bottom: -350px;
+}
+
+#api-content img {
+position: relative;
+left: 150px;
+top: 78px;
+width: 250px;
+flex-direction: row;
+}
+
+#banner2 img {
+  position: relative;
+  align-items: center;
+  height: 90%;
+  padding-top: 200px;
+}
+
+#banner2-info {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -350px;
+  padding: 350px;
+  font-family: Montserrat;
+  color: #ffffff;
+  text-align: center;
+}
+
+#banner2-info h2 {
+font-weight: bold;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #F7F7F7;
+padding-top: 200px;
+margin-bottom: 2rem;
+}
+
+#banner2-info h4 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 80px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#playstore2 {
+    width: 140px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background: #FA4A0C;
+    color: #ffffff;
+    position: relative;
+    left: -30px;
+  }
+
+  #appstore2 {
+    width: 140px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 10px 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0.5px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    position: relative;
+    left: 50px;
+    flex-direction: row; 
+    left: -30px;
+  }
+
+  footer {
+position: absolute;
+width: 600px;
+height: 10px;
+left: 115px;
+top: 3550px;
+
+background: #FFFFFF;
+  }
+
+  footer #logo-footer {
+    width: 150px;
+    padding: 10px 20px;
+  }
+
+  footer .socialmedia1 {
+    width: 30px;
+    padding-left: 200px;
+    top: -200%;
+  }
+
+  footer .socialmedia2 {
+    width: 25px;
+    
+    
+    padding-left: 50px;
+    
+  }
+
+  footer .socialmedia3 {
+    width: 25px;
+    padding-left: 50px;
+    border: 2px solid #FFFFFF;
+  }
+
+  footer #copy {
+    width: 250px;
+    position: relative;
+    
+    left: 140%;
+    top: -300%;
+    
+  }

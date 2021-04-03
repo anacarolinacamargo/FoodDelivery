@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Teste Din Digital</title>
 </head>
@@ -13,43 +15,45 @@
 <body>
     <header id="navbar">
         <img src="./assets/logo1.png" />
-
         <nav>
-
+            <div>
             <ul id="navbar-list">
                 <li><a href="#" id="home">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Faq</a></li>
                 <li><a href="#">Contact</a></li>
-
             </ul>
+        </div>
         </nav>
-
     </header>
     <main>
-        <section id="banner-section">
             <div id="main-banner1">
-                    <img src="./assets/banner1.png" style="width:100%;">
+                    <img src="./assets/banner1.png">
                 <div id="banner-info">
                     <h3>Food app</h3>
-                    <h6>Why stay hungry when you can order from Bella Onojie</h6>
+                    
+                  <ul>
+                      <li><h6>Why stay hungry when </h6>
+                        </li>
+                        <li><h6>you can order from Bella Onojie</h6></li>
+                  </ul>
+            
                     <p>Download the bella onoje’s food app now on</p>
                     <div>
-                        <button id="playStore">Playstore</button>
+                        <button id="playstore">Playstore</button>
                         <button id="appstore">App store</button>
                     </div>
                 </div>
             </div>
-      
-        </section>
 
         <div id="cards">
-            <img src="./assets/headerimage1.png">
-            <img src="./assets/headerimage2.png">
+            <img id="img1" src="./assets/headerimage1.png">
+            <img id="img2" src="./assets/headerimage2.png">
 
         </div>
-        <div id="divider"></div>
-        <div>
+
+        <div id="introduction">
+            <div><hr></div>
             <h2>How the app works</h2>
         </div>
         <div id="api-content"></div>
@@ -58,17 +62,19 @@
     </main>
     <div id="banner2">
         <img src="./assets/banner2.png" />
+        <div id="banner2-info">
         <h2>Download the app now.</h2>
         <h4>Available on your favorite store. Start your premium experience now</h4>
         <button id="playstore2">Playstore</button>
         <button id="appstore2">App store</button>
     </div>
+    </div>
     <footer>
-        <img src="./assets/logo1.png" alt="logo">
-        <img src="./assets/twitter.png" alt="twitter">
-        <img src="./assets/facebook.png" alt="facebook">
-        <img src="./assets/instagram.png" alt="instagram">
-        <img src="./assets/copywright.png" alt="copywright">
+        <img id="logo-footer" src="./assets/logo1.png" alt="logo">
+        <img class="socialmedia1" src="./assets/twitter.png" alt="twitter">
+        <img class="socialmedia2" src="./assets/facebook.png" alt="facebook">
+        <img class="socialmedia3" src="./assets/instagram.png" alt="instagram">
+        <img id="copy" src="./assets/copywright.png" alt="copywright">
         </footer>
 
     <script src="index.js"></script>
